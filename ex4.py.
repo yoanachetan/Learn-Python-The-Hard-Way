@@ -1,0 +1,42 @@
+# Sets variable "cars" to "100"
+cars = 100
+
+# Sets variable "space_in_the_car" to "4.0"
+space_in_a_car = 4.0 
+
+# Sets variable "drivers" to "30"
+drivers = 30 
+
+# Sets variable "passengers" to "90"
+passengers = 90 
+
+# Sets variable "cars_not_driven" to the variable "cars" minus the variable "drivers" = 100 - 30
+cars_not_driven = cars - drivers
+
+# Sets variable "cars_driven" to variable "drivers" = 30
+cars_driven = drivers 
+
+# Sets variable "carpool_capacity" to variable "drivers"multiplied by variable "space_in_a_car" = 30 * 4.0
+carpool_capacity = cars_driven * space_in_a_car  
+
+# Sets the variable "average_passengers_per_car" to variable "passengers" divided by "cars_driven"
+average_passengers_per_car = passengers / cars_driven  
+
+
+print("There are", cars, "cars available.")
+print("There are only", drivers, "drivers available.")
+print("There will be", cars_not_driven, "empty cars today.")
+print("We can transport", carpool_capacity, "people today.")
+print("We have", passengers, "to carpool today.")
+print("We need to put about", average_passengers_per_car, "in each car.")
+
+
+#Study Drills
+
+#1. I used 4.0 for space_in_a_car, but is that necessary? What happens if it’s just 4?
+#If the integer `4` was used vs. `4.0`, the `carpool_capacity` would be integer `120` vs. floating point `120.0`. The floating point is not necessary.
+#2. Remember that 4.0 is a floating point number. It’s just a number with a decimal point, and you need 4.0 instead of just 4 so that it is floating point.
+#3. Write comments above each of the variable assignments.
+#4. Make sure you know what= is called (equals) and that its purpose is to give data(numbers,strings, etc.) names (cars_driven, passengers).
+#5. Remember that_is an underscore character.
+#6. Try running python3.6 from the Terminal as a calculator like you did before, and use variable names to do your calculations. Popular variable names are also i, x, and j.
